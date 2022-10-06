@@ -2,4 +2,4 @@
 
 run `npm install`
 
-then 'node work'
+then `node work`
