@@ -1,0 +1,18 @@
+curl -X POST https://api.notion.com/v1/pages \
+  -H "Authorization: Bearer secret_Xu08bk0CABeI0oba1qukNJ1DhcJR4QWWYynMqKY58n7" \
+  -H "Content-Type: application/json" \
+  -H "Notion-Version: 2021-08-16" \
+  --data "{
+    \"parent\": { \"database_id\": \"a45b850db69c4c78a6c05bac6adbbd47\" },
+    \"properties\": {
+      \"title\": {
+        \"title\": [
+          {
+            \"text\": {
+              \"content\": \"Singh created this from shell\"
+            }
+          }
+        ]
+      }
+    }
+  }"
